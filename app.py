@@ -13,7 +13,7 @@ def get_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="enter the password",  # Apna MySQL password yahan dalein
+        password="enter the your password",  # Apna MySQL password yahan dalein
         database="book_exchange"
     )
 

@@ -5,7 +5,7 @@ def get_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="enter the password",  
+        password="enter the your password",  
         database="book_exchange"
     )
 def get_resale_price(class_grade , mrp ,condition):
